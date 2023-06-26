@@ -5,8 +5,9 @@
 }
 
 #container { 
+    border: 1px solid black;
     width: 1000px;
-    height: 1300px; 
+    height: 1440px; 
     margin: 0 auto;  
 }
 

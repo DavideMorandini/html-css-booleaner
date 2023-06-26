@@ -5,7 +5,6 @@
 }
 
 #container { 
-    border: 1px solid black;
     width: 1000px;
     height: 1440px; 
     margin: 0 auto;  
@@ -98,6 +97,7 @@ tbody {
 
 h4 {
     color: grey;
+    padding-bottom: 10px;
 }
 
 .interesting {

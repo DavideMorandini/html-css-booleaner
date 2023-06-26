@@ -26,6 +26,7 @@ h1 {
 
 .information {
     color: grey;
+    padding-bottom: 20px;
 }
 
 .booleaner {
@@ -34,4 +35,19 @@ h1 {
 
 .date {
     font-size: 10px;
+}
+
+.image_1 {
+    width: 500px; 
+    height: 330px;
+}
+
+.image_2 {
+    width: 430px;
+    height: 330px;
+}   
+
+.info-photo {
+    font-size: 10px;
+    padding-bottom: 20px;
 }

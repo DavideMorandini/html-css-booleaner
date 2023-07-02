@@ -4,16 +4,16 @@
     box-sizing: border-box;
 }
 
-#container { 
-    width: 1000px;
-    height: 1440px; 
+#container {
+    width: 85%;
+    height: auto; 
     margin: 0 auto;  
 }
 
 .logo_case {
     width: 100%;
     height: 150px;
-    background-color: rgb(0, 170, 255);
+    background-color: #4ea0ff;
     background-image: url("../img/pattern.png");
     background-repeat: repeat-x;   
     background-size: contain;
@@ -34,12 +34,12 @@ h1 {
 }
 
 .information {
-    color: grey;
+    color: #868686;
     padding-bottom: 20px;
 }
 
 .booleaner {
-    color: rgb(0, 204, 255);
+    color: #40b5e9;
 }
 
 .date {
@@ -75,12 +75,19 @@ h1 {
 }
 
 .table {
+    width: 100%;
     color: white;
-    padding-bottom: 20px;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    text-align: left;
 }
 
 .row-thead {
-    background-color: rgb(0, 187, 255);
+    background-color: #20a9e5;
+}
+
+th.w_50 {
+    width: 50%;
 }
 
 tbody {
@@ -88,7 +95,7 @@ tbody {
 }
 
 .row {
-    background-color: rgb(123, 235, 238);
+    background-color: #b1e5f2;
 }
 
 .second-row {
@@ -100,10 +107,14 @@ h4 {
     padding-bottom: 10px;
 }
 
+div.footer {
+    margin-bottom: 20px;
+}
+
 .interesting {
     border: 1px solid black;
     width: 200px;
-    height: 100px;
+    height: 150px;
 }
 
 .img_1 {
@@ -111,10 +122,18 @@ h4 {
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 10px;
+    background-position: center center;
 }
 
 .img_2 {
     background-image: url("../img/graph.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
+}
+
+div.lorem_inside {
+    color: white;
+    padding: 10px;
+    font-weight: bold;
 }
